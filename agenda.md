@@ -32,7 +32,7 @@
   * Dateien speichern
   * Dateien kopieren
   * Dateien löschen
-*Zip-Archive
+* Zip-Archive
 
 # Session 4
 
