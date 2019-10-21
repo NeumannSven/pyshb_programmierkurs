@@ -12,8 +12,9 @@ Bit|Min|Max
 
 
 ```python
-s = "Python syntax highlighting"
-print s
+zahl16 = 42
+print(zahl16)
+print(zahl16.bit_length())
 ```
 
 ### Boolean
