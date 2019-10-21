@@ -1,4 +1,4 @@
-** Variablen **
-* Typen *
+*Variablen*
+Typen
 - Integer
 
