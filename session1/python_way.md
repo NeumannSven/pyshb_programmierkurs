@@ -1,4 +1,18 @@
-# Die Prinzipien von Python
+# Der Python Weg
+
+## Was ist Python?
+
+Python ist eine portable, interpretative, dynamisch typisierte Multiparadigmensprache.
+
+### Was bedeutet das
+Python gilt als portable, da der Quellcode auf verschiedenen Systemplatformen lauffähig ist.
+Interpretativ, weil der Quellcode von dem mitgelieferten Interpreter in eine Bytecode übersetzt wird und direkt ausgeführt wird. Python hat keine 
+
+
+objectorientierte, imperative und funktionale Programmiersprache.
+Erfunden und entwickelt würde die Programmiersprache von Guido van Rossum.
+
+## Die Prinzipien von Python
 
 - Schön ist besser als hässlich.
 - Explizit ist besser als implizit.
