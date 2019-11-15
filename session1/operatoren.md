@@ -1,3 +1,5 @@
+[Inhalt](../agenda.md)
+
 # Schlüsselwörter
 Schlüsselworder oder Keywords sind reservierte Bezeichner von Python und dürfen nicht als Bezeichner für Variablen oder Funktionen verwendet werden.
 
@@ -45,13 +47,4 @@ Operatoren sind Funktionszeichen für Operationen. Die folgende Liste bietet ein
 | in | Test auf Zugehörigkeit zu einer Sequenz oder Menge |
 | lambda | Lambda-Ausdruck |
 
-
-
-
-
-
-
-
-
-
-
+[Inhalt](../agenda.md)
