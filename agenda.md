@@ -7,6 +7,7 @@
 * Installation von Python
 * Der Code
 
+* Keywords und Operatoren
 * Variablen
 * Tuple, Listen und Dictionary
 
@@ -15,8 +16,8 @@
 26. November
 
 * Programmfluss
-* Bedingungen
-* Schleifen
+  * Bedingungen
+  * Schleifen
 
 * Funktionen
 * Module
