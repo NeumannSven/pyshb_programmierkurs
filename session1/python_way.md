@@ -36,6 +36,8 @@ Im gegensatz zu anderen Programmiersprachen müssen Variablen kein Datentyp zuge
 - Wenn die Implementierung leicht zu erklären ist, kann es eine gute Idee sein.
 - Namensräume sind eine großartige Idee - lassen Sie uns mehr davon machen!
 
+## Wer arbeitet mit Python
+![Ranging 2/2019](https://github.com/NeumannSven/pyshb_programmierkurs/edit/master/session1/ranging2019-01.png "Ranging 2/2019")
 
 ## Installation
 Alle Installations-Dateien für die verschiedenen Betriebssysteme mit Hinweisen zu den unterschiedlichen Version, findest Du auf der Homepage der PSF https://www.python.org/downloads/
