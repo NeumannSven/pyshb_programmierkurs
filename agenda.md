@@ -40,8 +40,9 @@
 
 * [GUI](session4/01_gui.md)
 * [Einstieg](session4/02_einstieg.md)
-* Text und Labels
-* Button
+* [Widgets](session4/03_widgets.md)
+  * Text und Labels
+  * Button
 
 * Events
 * Weitere GUI Frameworks
