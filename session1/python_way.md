@@ -10,6 +10,10 @@ Interpretativ, weil der Quellcode von dem mitgelieferten Interpreter in eine Byt
 ### Wer hats erfunden?
 Erfunden und entwickelt würde die Programmiersprache von Guido van Rossum in den Neunzigern und wird heute von der _Python Software Fondation_ (PSF) weiterentwickelt.
 
+## Besonderheiten von Python
+Das auffälligste ist das der Quelltextlayout nicht nur der besseren Lesbarkeit dient, sondern auch zum Sprachsyntax gehört.
+Ein Zeilenumbruch makiert das Ende einer Anweisung und Anweisungsblöcke werden durch Einrückung kenntlich gemacht.
+Im gegensatz zu anderen Programmiersprachen müssen Variablen kein Datentyp zugeordnet werden. Es gibt also keine Varablen Deklaration (dynamische Typisierung). Der Datentyp ergibt sich aus dem Inhalt und wird, wenn erforderlich automatsch konvertiert.
 
 ## Die Prinzipien von Python
 - Schön ist besser als hässlich.
