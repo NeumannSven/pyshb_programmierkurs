@@ -1,4 +1,5 @@
 # Schlüsselwörter
+Schlüsselworder oder Keywords sind reservierte Bezeichner von Python und dürfen nicht als Bezeichner für Variablen oder Funktionen verwendet werden.
 
 ```console
 >>> help()
@@ -17,7 +18,7 @@ break               for                 not
 ```
 
 # Operatoren
-Operatoren sind Funktionszeichen für Operationen
+Operatoren sind Funktionszeichen für Operationen. Die folgende Liste bietet eine Übersicht über die wichtigsten Operatoren
 
 | Operator | Erläuterung |
 | :---: |---|
