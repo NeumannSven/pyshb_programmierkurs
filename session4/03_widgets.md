@@ -1,3 +1,5 @@
+[Inhalt](../agenda.md)
+
 # GUI
 
 ## Überblick über Widgets
@@ -19,3 +21,5 @@
 * Entry
 * Scale/Slider
 * Spinbox
+
+[Inhalt](../agenda.md)
