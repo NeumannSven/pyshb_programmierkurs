@@ -3,7 +3,7 @@
 19. November
 
 * Agenda
-* Der Python Weg und seine Geschichte
+* [Der Python Weg und seine Geschichte](session1/python_way.md)
 * Installation von Python
 * Ausführen von Python Scripts
 * Keywords und Operatoren
