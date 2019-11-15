@@ -1,3 +1,5 @@
+[Inhalt](../agenda.md)
+
 # GUI
 
 ## Grundlagen
@@ -24,3 +26,5 @@
 
 * läuft im Hintergrund
 * sorgt dafür, dass Widgets mit dem User und miteinander interagieren können
+
+[Inhalt](../agenda.md)
