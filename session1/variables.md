@@ -1,3 +1,5 @@
+[Inhalt](../agenda.md)
+
 # Variablen
 
 ## Typen
@@ -32,4 +34,4 @@ s = "Python syntax highlighting"
 print s
 ```
 
-
+[Inhalt](../agenda.md)
