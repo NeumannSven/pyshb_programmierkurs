@@ -39,7 +39,7 @@
 10. Dezember
 
 * [GUI](session4/01_gui.md)
-* Tkinter
+* [Einstieg](session4/02_einstieg.md)
 * Text und Labels
 * Button
 
