@@ -38,7 +38,7 @@
 
 10. Dezember
 
-* GUI
+* [GUI](session4/GUI.md)
 * Tkinter
 * Text und Labels
 * Button
