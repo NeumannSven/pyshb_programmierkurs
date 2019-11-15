@@ -8,7 +8,7 @@ Python gilt als portable, da der Quellcode auf verschiedenen Systemplatformen la
 Interpretativ, weil der Quellcode von dem mitgelieferten Interpreter in eine Bytecode übersetzt wird und direkt ausgeführt wird. Python hat eine dynamische Typesierung, das heiß es in eine Variable kann zur Laufzeit seinen Typ ändern und dieser wir während der Übersetzung nicht geprüft. Python ist eine Objektorientierte Programmiersprache, unterstützt aber auch die funktionale und imperative Programmierung. 
 
 ### Wer hats erfunden?
-Erfunden und entwickelt würde die Programmiersprache von Guido van Rossum in den Neunzigern und wird heute von der _Python Software Fondation_ (PSF) weiterentwickelt.
+Erfunden und entwickelt würde die Programmiersprache von Guido van Rossum in den Neunzigern und wird heute von der *Python Software Fondation* (PSF  https://www.python.org) weiterentwickelt.
 
 ## Besonderheiten von Python
 Das auffälligste ist das der Quelltextlayout nicht nur der besseren Lesbarkeit dient, sondern auch zum Sprachsyntax gehört.
@@ -35,3 +35,7 @@ Im gegensatz zu anderen Programmiersprachen müssen Variablen kein Datentyp zuge
 - Wenn die Implementierung schwer zu erklären ist, ist es eine schlechte Idee.
 - Wenn die Implementierung leicht zu erklären ist, kann es eine gute Idee sein.
 - Namensräume sind eine großartige Idee - lassen Sie uns mehr davon machen!
+
+
+## Installation
+Alle Installations-Dateien für die verschiedenen Betriebssysteme mit Hinweisen zu den unterschiedlichen Version, findet Du auf der Homepage der PSF https://www.python.org/downloads/
