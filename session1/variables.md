@@ -6,32 +6,42 @@
 
 ### Integer
 
-
-Bit|Min|Max
----:|---:|---:
-16|-32768|32767
-32|−2.147.483.648|2.147.483.647
-
-
 ```python
-zahl16 = 42
-print(zahl16)
-print(zahl16.bit_length())
+>>> x = 40
+>>> x + 2
+42
+type(x)
+<class 'int'>
 ```
 
 ### Boolean
 
 ```python
-s = "Python syntax highlighting"
-print s
+>>> x = True
+>>> x and False
+False
+type(x)
+<class 'bool'>
 ```
 
 #### Float
 
+```python
+>>> x = 23.0
+>>> x + .2
+23.2
+type(x)
+<class 'float'>
+```
+
+#### String
 
 ```python
-s = "Python syntax highlighting"
-print s
+>>> x = 'Hallo '
+>>> x + 'Welt!'
+'Hallo Welt'
+type(x)
+<class 'str'>
 ```
 
 [Inhalt](../agenda.md)
