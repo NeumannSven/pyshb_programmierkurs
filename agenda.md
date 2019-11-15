@@ -5,7 +5,6 @@
 * Agenda
 * Der Python Weg und seine Geschichte
 * Installation von Python
-* Der Code
 
 * Keywords und Operatoren
 * Variablen
