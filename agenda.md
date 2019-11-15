@@ -6,7 +6,7 @@
 * [Der Python Weg und seine Geschichte](session1/python_way.md)
 * [Installation von Python](session1/python_way.md)
 * [Ausführen von Python Scripts](session1/execute.md)
-* [Keywords und Operatoren](session1/operator.md)
+* [Keywords und Operatoren](session1/operatoren.md)
 * [Variablen](session1/variables.md)
 * Tuple, Listen und Dictionary
 
