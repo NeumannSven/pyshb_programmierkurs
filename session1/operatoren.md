@@ -36,7 +36,7 @@ Operatoren sind Funktionszeichen für Operationen
 | != | ungleich |
 | & | Bitweise UND|
 | ^ | Bitweise exclusive ODER (XOR)|
-| | | Bitweise OR|
+| \| | Bitweise OR|
 | not | Logisches NICHT |
 | and | Logisches UND |
 | or | Logisches ODER |
