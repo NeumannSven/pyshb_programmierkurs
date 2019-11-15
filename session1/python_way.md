@@ -1,3 +1,5 @@
+[Inhalt](../agenda.md)
+
 # Der Python Weg
 
 ## Was ist Python?
@@ -42,3 +44,5 @@ Im gegensatz zu anderen Programmiersprachen müssen Variablen kein Datentyp zuge
 
 ## Installation
 Alle Installations-Dateien für die verschiedenen Betriebssysteme mit Hinweisen zu den unterschiedlichen Version, findest Du auf der Homepage der PSF https://www.python.org/downloads/
+
+[Inhalt](../agenda.md)
