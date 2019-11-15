@@ -5,7 +5,7 @@
 * Agenda
 * Der Python Weg und seine Geschichte
 * Installation von Python
-
+* Ausführen von Python Scripts
 * Keywords und Operatoren
 * Variablen
 * Tuple, Listen und Dictionary
