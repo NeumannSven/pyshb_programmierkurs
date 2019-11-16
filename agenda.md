@@ -8,13 +8,13 @@
 * [Ausführen von Python Scripts](session1/execute.md)
 * [Keywords und Operatoren](session1/operatoren.md)
 * [Variablen](session1/variables.md)
-* Tuple, Listen und Dictionary
+* [Tuple, Listen und Dictionary](session1/lists.md)
 
 # Session 2
 
 26. November
 
-* Programmfluss
+* [Programmfluss](session2/programflow.md)
   * Bedingungen
   * Schleifen
 
