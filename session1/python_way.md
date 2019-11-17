@@ -49,8 +49,10 @@ Alle Installations-Dateien für die verschiedenen Betriebssysteme mit Hinweisen 
 ## Entwicklungsumgebung
 Es gibt sehr viele verschiedene Entwicklungsumgebungen(IDE) und Texteditoren die Python unterstützen. In diesen Kurs werden wir die mitgelieferten IDE *IDLE* benutzen.
 
+![IDLE](https://github.com/NeumannSven/pyshb_programmierkurs/blob/master/session1/idle.png "IDLE")
 
 Als alternative sei noch die einsteigerfreundliche IDE [Thonny](https://thonny.org) zu nennen.   
 
+![Thonny](https://github.com/NeumannSven/pyshb_programmierkurs/blob/master/session1/thonny.png "Thonny")
 
 [Inhalt](../agenda.md)
