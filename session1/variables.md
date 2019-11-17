@@ -1,6 +1,19 @@
 [Inhalt](../agenda.md)
 
 # Variablen
+Variablen haben in Python eien dynamische Typisierung. Das heißt der Inhalt und der Typ kann sich während der Laufzeit des Programms jederzeit ändern.
+
+```python
+>>> x = "Hallo Welt!"
+>>> x
+'Hallo Welt!'
+>>> x = 42
+>>> x
+42
+```
+
+Wir weisen der Variable x erst ein Text zu und danach eine Zahl.
+
 
 ## Typen
 
@@ -24,7 +37,7 @@ type(x)
 <class 'bool'>
 ```
 
-#### Float
+### Float
 
 ```python
 >>> x = 23.0
@@ -34,7 +47,7 @@ type(x)
 <class 'float'>
 ```
 
-#### String
+### String
 
 ```python
 >>> x = 'Hallo '
