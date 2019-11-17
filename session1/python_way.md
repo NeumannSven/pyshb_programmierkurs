@@ -45,4 +45,12 @@ Im gegensatz zu anderen Programmiersprachen müssen Variablen kein Datentyp zuge
 ## Installation
 Alle Installations-Dateien für die verschiedenen Betriebssysteme mit Hinweisen zu den unterschiedlichen Version, findest Du auf der Homepage der PSF https://www.python.org/downloads/
 
+
+## Entwicklungsumgebung
+Es gibt sehr viele verschiedene Entwicklungsumgebungen(IDE) und Texteditoren die Python unterstützen. In diesen Kurs werden wir die mitgelieferten IDE *IDLE* benutzen.
+
+
+Als alternative sei noch die einsteigerfreundliche IDE [Thonny](https://thonny.org) zu nennen.   
+
+
 [Inhalt](../agenda.md)
