@@ -19,7 +19,7 @@ Mehr Informationen gibt es in der Python Documentation (F1) unter Library Refere
 
 
 ## Module verwenden
-Hta man ein Modul gefunden in dem die gewünschten Funktionen enthalten sind, kann diese in das eigene
+Hat man ein Modul gefunden in dem die gewünschten Funktionen enthalten sind, kann dieses in das eigene
 Programm importiert werden.
 
 ```python
