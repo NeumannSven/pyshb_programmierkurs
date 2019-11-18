@@ -5,6 +5,7 @@
 * Agenda
 * [Der Python Weg und seine Geschichte](session1/python_way.md)
   * Installation von Python
+  * Entwicklungsumgebung
 * [Ausführen von Python Scripts](session1/execute.md)
 * [Keywords und Operatoren](session1/operatoren.md)
 * [Variablen](session1/variables.md)
@@ -18,8 +19,8 @@
   * Bedingungen
   * Schleifen
 
-* Funktionen
-* Module
+* [Funktionen](session2/function.md)
+* [Module](session2/module.md)
 
 # Session 3
 
