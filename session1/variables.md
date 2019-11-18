@@ -50,7 +50,7 @@ type(x)
 ### String
 
 ```python
->>> x = 'Hallo '
+>>> x = "Hallo "
 >>> x + 'Welt!'
 'Hallo Welt'
 type(x)
