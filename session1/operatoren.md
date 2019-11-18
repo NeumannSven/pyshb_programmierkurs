@@ -37,6 +37,7 @@ Operatoren sind Funktionszeichen für Operationen. Die folgende Liste bietet ein
 | == | gleich |
 | <> | ungleich |
 | != | ungleich |
+| = | Zuweisung |
 | & | Bitweise UND|
 | ^ | Bitweise exclusive ODER (XOR)|
 | \| | Bitweise OR|
