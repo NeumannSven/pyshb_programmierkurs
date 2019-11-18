@@ -1,10 +1,10 @@
-from tkinter import *
+import tkinter as tk
 
 # Hauptfenster erzeugen
-root = Tk()
+root = tk.Tk()
 
 # Label Widget erzeugen
-testlabel = Label(root, text="Hallo PySpace Bremen!")
+testlabel = tk.Label(root, text="Hallo PySpace Bremen!")
 
 # Label Widget auf das Hauptfenster legen
 testlabel.grid(row=0)
