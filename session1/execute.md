@@ -10,7 +10,7 @@ print('Hallo Welt!')
 
 ```
 # Ausführen von einem Python Script
-Mit F5 kann die DAtei aus IDLE heraus gestartet werden. In der Konsolewird diese Quelldatei folgendermaßen ausgeführt.
+Mit F5 kann das Python Script aus IDLE heraus gestartet werden. In der Konsolewird diese Quelldatei folgendermaßen ausgeführt.
 
 ```
 > python3 first.py
