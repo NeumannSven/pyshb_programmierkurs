@@ -52,11 +52,48 @@ print("Ende")
 ```
 
 ## Schleifen
-
-### for 
-
+Oft ist es notwendig viele wiederholungen eines Programmabschnittes ausführen. Dafür werden Scleifen benötigt,
+die es in den folgenden Ausführungen gibt.
 
 ### while
 
+```python
+# loops.py
+
+eingabe = ""
+
+while eingabe != "x":
+    eingabe = input("Bitte ein Zeichen eingeben: ")
+
+    if eingabe == 'x':
+        print("Programm Ende")
+    elif eingabe == 'm':
+        print("Multiplizieren")
+    elif eingabe == 'a':
+        print("Addieren")
+    else:
+        print("Auswahl nicht unterstüzt")
+    
+print("Ende")
+```
+
+### for 
+
+```python
+# forloops.py
+for i in range(10):
+    print(i)
+
+t = (1,42,6,17,99,23)
+
+for i in t:
+    print(i)
+
+l = ["Hallo", "Welt", "!", 42, 23]
+
+for i in l:
+    print(i)
+
+```
 
 [Inhalt](../agenda.md)
