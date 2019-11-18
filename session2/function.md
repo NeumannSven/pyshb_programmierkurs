@@ -2,6 +2,7 @@
 
 # Funktionen
 
+Ein Rechteck erzeugen und ausdrucken.
 
 ```python
 # functions.py
@@ -31,6 +32,10 @@ rechteck += "+\n"
     
 print(rechteck)
 ```
+
+Zwei verschieden große Rechtecke ausdrucken.
+
+```python
 # functions.py
 
 rechteck = ""
@@ -43,21 +48,17 @@ for i in range(breite):
     rechteck += "-"
 rechteck += "+\n"
 
-
 # Linie Rechts und Links 
 for i in range(hoehe):
     rechteck += "|" + (breite)*" " + "|\n"
     
-
 rechteck += "+"
 # Linie Unten
 for i in range(breite):
     rechteck += "-"
 rechteck += "+\n"
-    
-    
+        
 print(rechteck)
-
 
 rechteck = ""
 breite = 40
@@ -81,11 +82,7 @@ for i in range(breite):
     rechteck += "-"
 rechteck += "+\n"
     
-    
 print(rechteck)
-
-```python
-
 
 ```
 
