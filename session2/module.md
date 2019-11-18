@@ -7,7 +7,7 @@
 Python liefert eine mächtige Standard Bibliothek mit. In der Python Shell kann eine Liste der
 installierten Modulen mittels der help() Funktion aufgelistet werden.
 
-```python
+```idle
 >>> help()
 help> modules
 
