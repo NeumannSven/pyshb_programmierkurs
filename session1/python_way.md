@@ -7,7 +7,7 @@ Python ist eine portable, interpretative, dynamisch typisierte Multiparadigmensp
 
 ### Was bedeutet das?
 Python gilt als portable, da der Quellcode auf verschiedenen Systemplatformen lauffähig ist.
-Interpretativ, weil der Quellcode von dem mitgelieferten Interpreter in eine Bytecode übersetzt wird und direkt ausgeführt wird. Python hat eine dynamische Typesierung, das heiß es in eine Variable kann zur Laufzeit seinen Typ ändern und dieser wir während der Übersetzung nicht geprüft. Python ist eine Objektorientierte Programmiersprache, unterstützt aber auch die funktionale und imperative Programmierung. 
+Interpretativ, weil der Quellcode von dem mitgelieferten Interpreter in eine Bytecode übersetzt und direkt ausgeführt wird. Python hat eine dynamische Typesierung, das heiß eine Variable kann zur Laufzeit ihren Typ ändern. Der Typ wir während der Übersetzung nicht überprüft. Python ist eine objektorientierte Programmiersprache, unterstützt aber auch die funktionale und imperative Programmierung. 
 
 ### Wer hats erfunden?
 Erfunden und entwickelt würde die Programmiersprache von Guido van Rossum in den Neunzigern und wird heute von der *Python Software Fondation* (PSF  https://www.python.org) weiterentwickelt.
