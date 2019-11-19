@@ -35,7 +35,6 @@ Operatoren sind Funktionszeichen für Operationen. Die folgende Liste bietet ein
 | > | Größer als |
 | >= | Größer oder gleich |
 | == | gleich |
-| <> | ungleich |
 | != | ungleich |
 | = | Zuweisung |
 | & | Bitweise UND|
