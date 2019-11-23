@@ -52,7 +52,7 @@ print("Ende")
 ```
 
 ## Schleifen
-Oft ist es notwendig viele wiederholungen eines Programmabschnittes ausführen. Dafür werden Scleifen benötigt,
+Oft ist es notwendig viele wiederholungen eines Programmabschnittes ausführen. Dafür werden Schleifen benötigt,
 die es in den folgenden Ausführungen gibt.
 
 ### while
