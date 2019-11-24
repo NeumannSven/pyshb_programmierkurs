@@ -31,7 +31,24 @@ print(sys.version)
 
 ## Eigene Module schreiben
 
+´´´python
+# mymodule.py
+
+def myfunction(txt):
+  print(txt)
+  
+´´´
 
 
+## Eigene Module verwenden
+
+´´´´python
+# mymodprog.py
+
+import mymodule
+
+myfunction('Hallo Welt!')
+
+´´´
 
 [Inhalt](../agenda.md)
