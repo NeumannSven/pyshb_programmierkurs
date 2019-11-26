@@ -127,14 +127,6 @@ def createRechteck(breite, hoehe):
 
 ```
 
-### Funktion mit Positionsargumente
-
-```python
-
-def createRechteck(breite, hoehe):
-
-```
-
 ### Funktion mit Schlüsselwort-Argumente
 
 ```python
