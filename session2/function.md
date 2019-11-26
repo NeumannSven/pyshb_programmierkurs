@@ -167,4 +167,13 @@ createRechteck(hoehe=10, breite=40)
 
 ```
 
+## Rückgabewerte eine Function
+
+```python
+def mal2(zahl):
+    return zahl * 2
+```
+
+
+
 [Inhalt](../agenda.md)
