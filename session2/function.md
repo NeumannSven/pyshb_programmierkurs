@@ -171,7 +171,7 @@ def createRechteck(breite=10, hoehe=10):
 
 ```python
 createRechteck(20, 5)
-createRechteck(40, 10)
+createRechteck(hoehe=10, breite=40)
 
 ```
 
