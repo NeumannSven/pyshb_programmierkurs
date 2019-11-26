@@ -119,14 +119,31 @@ createRechteck(40, 10)
 
 ## Funktionskopf
 
+### Funktion mit Positionsargumenten
+
 ```python
 
 def createRechteck(breite, hoehe):
 
 ```
 
+### Funktion mit Positionsargumente
 
-## Funktionsrumpf
+```python
+
+def createRechteck(breite, hoehe):
+
+```
+
+### Funktion mit Schlüsselwort-Argumente
+
+```python
+
+def createRechteck(breite=10, hoehe=10):
+
+```
+
+## Funktionskörper
 
 ```python
     rechteck = ""
