@@ -47,7 +47,7 @@ def myfunction(txt):
 
 import mymodule
 
-myfunction('Hallo Welt!')
+mymodule.myfunction('Hallo Welt!')
 
 ```
 
