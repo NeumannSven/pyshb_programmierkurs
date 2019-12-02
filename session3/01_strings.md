@@ -114,3 +114,5 @@ Inhalt eines Strings prüfen mit ``in`` oder ``not in``.
 >>> "Hamburg" in s
 False
 ```
+
+[Inhalt](../agenda.md)

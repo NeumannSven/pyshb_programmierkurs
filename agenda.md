@@ -26,9 +26,9 @@
 
 03. Dezember
 
-* Strings
+* [Strings](session3/01_strings.md)
 
-* Dateihandling
+* [Dateihandling](session3/02_dateien.md)
   * Dateien lesen
   * Dateien speichern
   * Dateien kopieren
