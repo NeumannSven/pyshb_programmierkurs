@@ -1,6 +1,6 @@
 [Inhalt](../agenda.md)
 
-# Dateien
+# Dateien Teil 1
 
 Dateien lesen und schreiben funktioniert in Python ohne zusätzliche Module. 
 Für weitergehende Dateimanipulation gibt es Module in der Standard-Library.
@@ -50,3 +50,5 @@ f = open("datei.txt", "r")
 for l in f:
     print(l)
 ```
+
+[Inhalt](../agenda.md)
