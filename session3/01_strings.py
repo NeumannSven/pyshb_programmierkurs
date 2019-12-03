@@ -8,6 +8,8 @@ while eingabe != "x":
     elif eingabe == 'm':
         print("Multiplizieren")
         zahl_eingabe = input("Bitte zwei Zahlen eingeben: ")
+        if ',' in zahl_eingabe or '.' in zahl_eingabe or not " " in zahl_eingabe:
+            continue
         teile = zahl_eingabe.split()
         print(f"Das Ergebnis ist: {teile[0]} mal {teile[1]} = {int(teile[0]) * int(teile[1])}")
     elif eingabe == 'a':
