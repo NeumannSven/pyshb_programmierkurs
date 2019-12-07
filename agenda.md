@@ -53,5 +53,5 @@
 17. Dezember
 
 * Applikation 
-
-* Verweisen
++ Wie geht's weiter
+* Links
