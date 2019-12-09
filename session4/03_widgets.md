@@ -87,8 +87,49 @@ option3.grid(row=7, column=0)
 
 ### Eingabe von Inhalten
 
-* Entry
-* Scale/Slider
-* Spinbox
+Für einzeilige Texteingaben ist das *Entry* Widget vorgesehen.
+
+```python
+v = tk.StringVar()
+e = tk.Entry(root, textvariable=v)
+e.grid(row=0, column=0)
+```
+
+Mit dem *Scale* oder *Slider* Widget können ganzzahlige Werte über einen Schieberegler eingestellt werden. 
+Mit der Option ``orient`` stellt man ein, ob der Schieber horizontal oder vertikal erzeugt wird.
+
+```python
+sterne = tk.IntVar()
+s = tk.Scale(root, from_=1, to=5, variable=sterne, orient="horizontal")
+s.grid(row=1, column=0)
+
+bewertung = tk.Label(root, textvariable=sterne)
+bewertung.grid(row=2, column=0)
+```
+
+Möchte man auch Kommastellen zulassen oder mehr Kontrolle über die Eingabe haben, kann man ein *Spinbox* Widget verwenden.
+
+```python
+prozente = tk.DoubleVar()
+spin = tk.Spinbox(root, from_=0, to=100, increment=0.1, textvariable=prozente)
+spin.grid(row=3, column=0)
+
+anteil = tk.Label(root, textvariable=prozente)
+anteil.grid(row=4, column=0)
+```
+
+### Aktionen auslösen
+
+Mit dem *Button* Widget kann eine Funktion gezielt ausgeführt werden. Die Funktion muss vor dem Widget deklariert werden.
+
+```python
+import tkinter as tk
+import tkinter.messagebox as tkmessagebox
+def hello_callback():
+    tkmessagebox.showinfo("Hinweis", "Hallo Python!")
+b = tk.Button(root, text="Hallo", command=hello_callback)
+```
+
+[Events](04_events.md)
 
 [Inhalt](../agenda.md)

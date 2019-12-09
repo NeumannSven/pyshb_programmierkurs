@@ -5,7 +5,8 @@ root = tk.Tk()
 root.geometry('500x500')
 
 # Texteingabefeld erzeugen
-e = tk.Entry(root)
+v = tk.StringVar()
+e = tk.Entry(root, textvariable=v)
 e.grid(row=0, column=0)
 
 # Slider erzeugen

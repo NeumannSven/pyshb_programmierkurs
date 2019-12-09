@@ -12,3 +12,5 @@
 * weitere Events kommen von Windowmanager
     * Fenster schließen
 * Events können an Funktionen gebunden werden
+
+[Inhalt](../agenda.md)
