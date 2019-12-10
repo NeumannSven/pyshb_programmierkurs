@@ -11,3 +11,5 @@ testlabel.grid(row=0)
 
 # Mainloop starten
 root.mainloop()
+
+print("Ende")

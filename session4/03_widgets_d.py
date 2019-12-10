@@ -8,7 +8,7 @@ root = tk.Tk()
 
 # Callback Funktion deklarieren
 def hello_callback():
-    tkmessagebox.showinfo("Hinweis", "Hallo Python!")
+    tkmessagebox.showwarning("Hinweis", "Hallo Python!")
 
 
 # Button erzeugen
