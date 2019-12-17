@@ -10,9 +10,9 @@ class IdeenBox(wx.Frame):
 
         self.TopSizer = wx.BoxSizer(wx.HORIZONTAL)
 
-        self.IdeenListe = wx.ListCtrl(self, style=wx.LC_REPORT | wx.LC_NO_HEADER)
-        self.IdeenListe.InsertColumn(0, "Titel")
-        self.TopSizer.Add(self.IdeenListe, 0, wx.ALL | wx.EXPAND)
+        self.IdeenListe = wx.ListCtrl(self, style=wx.LC_REPORT | wx.LC_SINGLE_SEL)
+        self.IdeenListe.InsertColumn(0, "Ideen")
+        self.TopSizer.Add(self.IdeenListe, 0, wx.ALL | wx.EXPAND, 5)
 
         self.EintragSizer = wx.BoxSizer(wx.VERTICAL)
 
@@ -25,11 +25,16 @@ class IdeenBox(wx.Frame):
         self.BeschreibungStat = wx.StaticText(self, label="Beschreibung")
         self.BeschreibungText = wx.TextCtrl(self)
         self.FarbeStat = wx.StaticText(self, label="Farbe")
+
         self.FarbButtonSizer = wx.BoxSizer(wx.HORIZONTAL)
         self.WhiteButton = wx.ToggleButton(self, label="White")
+        self.WhiteButton.SetForegroundColour(wx.WHITE)
         self.GrayButton = wx.ToggleButton(self, label="Gray")
+        self.GrayButton.SetForegroundColour(wx.LIGHT_GREY)
         self.YellowButton = wx.ToggleButton(self, label="Yellow")
+        self.YellowButton.SetForegroundColour(wx.YELLOW)
         self.PinkButton = wx.ToggleButton(self, label="Pink")
+        self.PinkButton.SetForegroundColour(wx.Colour(255, 0, 255))
         self.FarbButtonSizer.Add(self.WhiteButton, 1, wx.ALL | wx.EXPAND)
         self.FarbButtonSizer.Add(self.GrayButton, 1, wx.ALL | wx.EXPAND)
         self.FarbButtonSizer.Add(self.YellowButton, 1, wx.ALL | wx.EXPAND)
@@ -54,7 +59,7 @@ class IdeenBox(wx.Frame):
 
         self.EintragSizer.Add(self.EintragLangText, 1, wx.ALL | wx.EXPAND)
 
-        self.TopSizer.Add(self.EintragSizer, 1, wx.ALL | wx.EXPAND)
+        self.TopSizer.Add(self.EintragSizer, 1, wx.ALL | wx.EXPAND, 5)
 
         self.BottomSizer = wx.BoxSizer(wx.HORIZONTAL)
 
@@ -68,7 +73,7 @@ class IdeenBox(wx.Frame):
         self.BottomSizer.Add(self.SaveButton, 0, wx.ALL | wx.ALIGN_RIGHT)
 
         self.MainSizer.Add(self.TopSizer, 1, wx.ALL | wx.EXPAND)
-        self.MainSizer.Add(self.BottomSizer, 0, wx.ALL | wx.EXPAND)
+        self.MainSizer.Add(self.BottomSizer, 0, wx.ALL | wx.EXPAND, 5)
 
         self.Bind(wx.EVT_LIST_ITEM_SELECTED, self.showEntry, self.IdeenListe)
         self.Bind(wx.EVT_BUTTON, self.writeJson, self.SaveButton)
@@ -122,6 +127,7 @@ class IdeenBox(wx.Frame):
         self.IdeenListe.DeleteAllItems()
         for idee in self.IdeenDict["Ideen"]:
             self.IdeenListe.Append([idee["title"]])
+        self.IdeenListe.SetColumnWidth(0, wx.LIST_AUTOSIZE)
 
     def showEntry(self, event):
         self.NewEntryFlag = False
