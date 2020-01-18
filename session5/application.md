@@ -9,8 +9,11 @@
 
 
 
-## 
 
+## Programmcode 
+
+
+### imports
 ```python
 
 
@@ -20,11 +23,22 @@ import json
 import os
 from pprint import pprint
 
+```
+
+### Globale Variablen
+```python
+
+
 selectedItem = []
 project = [['new item', "description", ['tags'], 'white', 'more information']]
 selectedIndex = 0
 
 bg = '#C5C5C5'
+
+```
+
+### Erstellen von Hilfsfunktionen
+```python
 
 
 def loadProject(filename='data.json'):
@@ -53,9 +67,17 @@ def updateItem():
     txt_content.delete('1.0', 'end')
     txt_content.insert('end', selectedItem[4])
 
+```
+
+### Lade die Projektdatei
+```python
 
 project = loadProject()
 
+```
+
+### Erstellen der Programmoberfläche
+```python
 
 window = tk.Tk()
 window.title('Ideen Box')
@@ -116,14 +138,22 @@ btn_save = tk.Button(frame, text='Speichern')
 btn_save.grid(row=6, column=2, sticky='e', padx=5, pady=5)
 
 
+```
+
+### Aktualliseren der Listox und der Detailansicht
+```python
+
 updateListBox()
 updateItem()
 
-window.mainloop()
-
-
 ```
 
+### Endlosschleife des Eventloops
+```python
+
+window.mainloop()
+
+```
 
 
 ## Ergebnis
