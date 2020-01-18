@@ -13,10 +13,49 @@
 
 ```python
 
+
 import tkinter as tk
 import tkinter.scrolledtext as st
+import json
+import os
+from pprint import pprint
+
+selectedItem = []
+project = [['new item', "description", ['tags'], 'white', 'more information']]
+selectedIndex = 0
 
 bg = '#C5C5C5'
+
+
+def loadProject(filename='data.json'):
+    if not os.path.exists(filename):
+        json.dump(project, open(filename, 'w'))
+    return json.load(open(filename))
+
+def updateListBox():
+    listbox.delete(0, 'end')
+    for item in project:
+        listbox.insert('end', item[0])
+        listbox.itemconfig('end', background=item[3])
+        
+def updateItemClick(event):
+    global selectedItem, selectedIndex
+    selectedIndex = event.widget.curselection()[0]
+    updateItem()
+    
+def updateItem():
+    global selectedItem
+    selectedItem = project[selectedIndex]
+    var_titel.set(selectedItem[0])
+    var_description.set(selectedItem[1])
+    var_tag.set(','.join(selectedItem[2]))
+    var_color.set(selectedItem[3])
+    txt_content.delete('1.0', 'end')
+    txt_content.insert('end', selectedItem[4])
+
+
+project = loadProject()
+
 
 window = tk.Tk()
 window.title('Ideen Box')
@@ -26,6 +65,7 @@ frame.grid(sticky='nesw')
 
 listbox = tk.Listbox(frame, selectmode='single', activestyle='none', width=40)
 listbox.grid(row=0, column=0, rowspan=6, sticky='nesw', padx=5, pady=5)
+listbox.bind('<ButtonRelease-1>', updateItemClick)
 
 frm_edit = tk.Frame(frame, bg=bg)
 frm_edit.grid(row=6, column=0, sticky='nesw', padx=5)
@@ -75,8 +115,11 @@ txt_content.grid(row=4, rowspan=2, column=1, columnspan=2, sticky='nesw', padx=5
 btn_save = tk.Button(frame, text='Speichern')
 btn_save.grid(row=6, column=2, sticky='e', padx=5, pady=5)
 
-window.mainloop()
 
+updateListBox()
+updateItem()
+
+window.mainloop()
 
 
 ```
