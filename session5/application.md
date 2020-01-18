@@ -21,7 +21,6 @@ import tkinter as tk
 import tkinter.scrolledtext as st
 import json
 import os
-from pprint import pprint
 
 ```
 
