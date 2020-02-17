@@ -4,6 +4,7 @@ import tkinter.scrolledtext as st
 import json
 import os
 
+
 selectedItem = []
 project = [['new item', "description", ['tags'], 'white', 'more information']]
 selectedIndex = 0
@@ -37,6 +38,29 @@ def updateItem():
     txt_content.delete('1.0', 'end')
     txt_content.insert('end', selectedItem[4])
 
+def addItem():
+    global selectedItem, selectedIndex
+    newitem = selectedItem.copy()
+    newitem[0] += "_{}".format(selectedIndex)
+    project.append(newitem)
+    selectedIndex = len(project) -1 
+    updateItem()
+    updateListBox()
+
+def delItem():
+    del(project[selectedIndex])
+    updateListBox()
+
+def saveProject(filename='data.json'):
+    selectedItem[0] = var_titel.get()
+    selectedItem[1] = var_description.get()
+    selectedItem[2] = [tag.strip() for tag in var_tag.get().split(',')]
+    selectedItem[3] = var_color.get()
+    selectedItem[4] = txt_content.get('1.0', 'end')
+    updateListBox()
+    with open(filename,'w') as projectfile:
+        json.dump(project, projectfile)
+
 
 project = loadProject()
 
@@ -54,10 +78,10 @@ listbox.bind('<ButtonRelease-1>', updateItemClick)
 frm_edit = tk.Frame(frame, bg=bg)
 frm_edit.grid(row=6, column=0, sticky='nesw', padx=5)
 
-btn_plus = tk.Button(frm_edit, text='+')
+btn_plus = tk.Button(frm_edit, text='+', command=addItem)
 btn_plus.pack(side='left')
 
-btn_minus = tk.Button(frm_edit, text='-')
+btn_minus = tk.Button(frm_edit, text='-', command=delItem)
 btn_minus.pack(side='left')
 
 lbl_titel = tk.Label(frame, text='Titel', bg=bg)
@@ -96,7 +120,7 @@ for index, color in enumerate(colors):
 txt_content = st.ScrolledText(frame, wrap='word')
 txt_content.grid(row=4, rowspan=2, column=1, columnspan=2, sticky='nesw', padx=5, pady=5)
 
-btn_save = tk.Button(frame, text='Speichern')
+btn_save = tk.Button(frame, text='Speichern', command=saveProject)
 btn_save.grid(row=6, column=2, sticky='e', padx=5, pady=5)
 
 
