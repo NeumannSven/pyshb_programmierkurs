@@ -1,4 +1,5 @@
 # Datenbanken
+<<<<<<< HEAD
 
 ## SQLite
 
@@ -17,3 +18,5 @@
 
 
 
+=======
+>>>>>>> branch 'master' of https://github.com/NeumannSven/pyshb_programmierkurs.git
