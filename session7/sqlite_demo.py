@@ -31,7 +31,6 @@ def createCustomer(cur):
         print(e)
 
 
-
 def createParts(cur):
     sql_stmt = """
     CREATE TABLE PARTS (
@@ -93,8 +92,6 @@ def createProjects(cur):
         print(e)
 
 
-
-
 def createPartLists(cur):
     sql_stmt = """
     CREATE TABLE PARTLISTS (
@@ -122,20 +119,6 @@ def createPartLists(cur):
         print(e)
 
 
-def getPartLists(cur):
-    sql_stmt = """
-    SELECT * FROM PARTLISTS;"""
-        
-    return [row for row in cur.execute(sql_stmt)]
-        
-    
-def getParts(cur):
-    sql_stmt = """
-    SELECT * FROM PARTS;"""
-        
-    return [row for row in cur.execute(sql_stmt)]
-
-
 if __name__ == "__main__":
     con = sqlite3.connect('/Users/sven/git/pyshb_programmierkurs/session7/projects.db')
     cur = con.cursor()
@@ -145,9 +128,8 @@ if __name__ == "__main__":
     createProjects(cur)
     createPartLists(cur)
     
-    inhalt = getPartLists(cur)
-    pprint(inhalt)
     
     con.commit()
+    
     con.close()
 
