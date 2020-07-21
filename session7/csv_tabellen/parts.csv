@@ -1,0 +1,14 @@
+ID,NAME,DESCRIPTION,PRICE
+1,ESP32,ESP32 NodeMCU Modul WLAN WiFi Development Board mit CP2102,7.99
+2,ESP8266,ESP8266 Mini NodeMcu mit ESP8266-12F WLAN Modul,4.49
+3,MB-102,Breadboard Steckbrett mit 830 Kontakten,2.39
+4,PB-400,Breadboard Steckbrett mit 400 Kontakten,1.95
+5,B10K,Trim Potentiometer mit Knopf 10K,0.79
+6,SPST-B,Mini Drucktaster Schalter AC 220V/2A/Schwarz,1.60
+7,SPST-R,Mini Drucktaster Schalter AC 220V/2A/Rot,"1,49"
+8,LED3R,LED 3mm Rot,0.15
+9,LED3Y,LED 3mm Gelb,0.15
+10,LED3G,LED 3mm Grün,0.15
+11,UA005,"Breadboard Steckbrücken Drahtbrücken Set, Jumper Drähte mit 14 Verschiedene Längen + Flexible Breadboard Jumperkabel M/M + Pinzette",11.99
+12,DHT22,AM2302 Temperatursensor und Luftfeuchtigkeitssensor,5.85
+13,SG90,Micro Servo Motor 9G,1.59
