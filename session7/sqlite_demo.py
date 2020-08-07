@@ -50,7 +50,7 @@ def createParts(cur):
         "INSERT INTO parts (ID, NAME, DESCRIPTION, PRICE) VALUES('4', 'PB-400', 'Breadboard Steckbrett mit 400 Kontakten', '1.95');",
         "INSERT INTO parts (ID, NAME, DESCRIPTION, PRICE) VALUES('5', 'B10K', 'Trim Potentiometer mit Knopf 10K', '0.79');",
         "INSERT INTO parts (ID, NAME, DESCRIPTION, PRICE) VALUES('6', 'SPST-B', 'Mini Drucktaster Schalter AC 220V/2A/Schwarz', '1.60');",
-        "INSERT INTO parts (ID, NAME, DESCRIPTION, PRICE) VALUES('7', 'SPST-R', 'Mini Drucktaster Schalter AC 220V/2A/Rot', '1,49');",
+        "INSERT INTO parts (ID, NAME, DESCRIPTION, PRICE) VALUES('7', 'SPST-R', 'Mini Drucktaster Schalter AC 220V/2A/Rot', '1.49');",
         "INSERT INTO parts (ID, NAME, DESCRIPTION, PRICE) VALUES('8', 'LED3R', 'LED 3mm Rot', '0.15');",
         "INSERT INTO parts (ID, NAME, DESCRIPTION, PRICE) VALUES('9', 'LED3Y', 'LED 3mm Gelb', '0.15');",
         "INSERT INTO parts (ID, NAME, DESCRIPTION, PRICE) VALUES('10', 'LED3G', 'LED 3mm Grün', '0.15');",
