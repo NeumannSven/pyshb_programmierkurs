@@ -158,10 +158,10 @@ def showDatabase(cur):
     tree=ttk.Treeview(master)
     
     tree["columns"]=("one","two","three")
-    tree.column("#0", width=100, minwidth=100, stretch=tk.NO)
+    tree.column("#0", width=100, minwidth=100, stretch=tk.YES)
     tree.column("one", width=100, minwidth=100, stretch=tk.YES)
     tree.column("two", width=500, minwidth=200, stretch=tk.YES)
-    tree.column("three", width=80, minwidth=50, stretch=tk.NO)
+    tree.column("three", width=80, minwidth=50, stretch=tk.YES)
 
     tree.heading("#0",text="Tabellen",anchor=tk.W)
     tree.heading("one", text="Name",anchor=tk.W)
@@ -188,13 +188,13 @@ def showDatabase(cur):
     for part in getPartLists(cur):
         tree.insert(partlistTab, "end", f"d{part[0]}", text='', values=(part[1],part[2], part[3]))
 
-    tree.pack(side=tk.LEFT,fill=tk.X)
+    tree.pack(side=tk.LEFT,fill=tk.BOTH)
     
     master.mainloop()
 
 
 if __name__ == "__main__":
-    con = pg8000.connect(user="sven", password="", database="pyshb")
+    con = pg8000.connect(user="sven", host='192.168.2.68', password="", database="sven")
     cur = con.cursor()
     
     #createCustomer(cur)
