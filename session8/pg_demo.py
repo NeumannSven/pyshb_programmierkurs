@@ -201,13 +201,9 @@ if __name__ == "__main__":
     #createParts(cur)
     #createProjects(cur)
     #createPartLists(cur)
-    
-    #pprint(getCustomers(cur))
-    
+  
     showDatabase(cur)
     
-    
     con.commit()
-    
     con.close()
 
