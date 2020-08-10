@@ -1,7 +1,5 @@
 # Session 1
 
-19. November
-
 * Agenda
 * [Der Python Weg und seine Geschichte](session1/python_way.md)
   * Installation von Python
@@ -13,8 +11,6 @@
 
 # Session 2
 
-26. November
-
 * [Programmfluss](session2/programflow.md)
   * Bedingungen
   * Schleifen
@@ -23,8 +19,6 @@
 * [Module](session2/module.md)
 
 # Session 3
-
-03. Dezember
 
 * [Strings](session3/01_strings.md)
 
@@ -37,8 +31,6 @@
 
 # Session 4
 
-10. Dezember
-
 * [GUI](session4/01_gui.md)
 * [Einstieg](session4/02_einstieg.md)
 * [Widgets](session4/03_widgets.md)
@@ -50,15 +42,23 @@
 
 # Session 5
 
-17. Dezember
-
 * [Applikation](session5/application.md)
 + Wie geht's weiter
 * Links
 
-# Session 9
+# Session 6
 
-18. August
+* [MVC](session6/README.md)
+
+# Session 7
+
+* [SQLite](session7/README.md)
+
+# Session 8
+
+* [PostgrSQL](session8/README.md)
+
+# Session 9
 
 * MongoDB
 * [Applikation](session9/README.md)
