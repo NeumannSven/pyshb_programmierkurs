@@ -16,10 +16,3 @@ https://www.mongodb.com/try/download/community
 Robo3t:
 https://robomongo.org/download
 
-## Konzept im Vergleich zu SQL
-
-
-
-## Daten speichern
-
-## Daten abfragen
