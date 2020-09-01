@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
 ## assert
 In Python gibt es ist die eingebaute assert Funktion, mit dieser Funktion können Ergebnisse oder Ausdrücke überprüft werden.
-Wenn die Funktion ein False zurück liefert oder der Ausdruck nicht wahr ist, wird eine "AssertionError" Exception geschmissen.
+Wenn die Funktion ein False zurückliefert oder der Ausdruck nicht wahr ist, wird eine "AssertionError" Exception geschmissen.
 Ansonsten wird nichts ausgegeben.
 
 ```python
