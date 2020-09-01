@@ -4,7 +4,6 @@ Created on 01.09.2020
 @author: neumann
 '''
 import random
-from IPython.lib.tests.test_pretty import MyList
 
 
 class ValueList:
