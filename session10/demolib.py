@@ -1,3 +1,8 @@
+'''
+Created on 01.09.2020
+
+@author: neumann
+'''
 import random
 
 class ValueList:
@@ -8,12 +13,6 @@ class ValueList:
         count (int): size of list
         minvalue (int, optional): min random value. Defaults to 0.
         maxvalue (int, optional): max random value. Defaults to 1000.
-
-    >>> mylist = ValueList(3)
-    >>> mylist.getMaxValue()
-    5
-    >>> mylist.getMinValue()
-    1
 
     """   
     def __init__(self, count, minvalue=0, maxvalue=1000): 
@@ -58,6 +57,4 @@ class ValueList:
 if __name__ == "__main__":
     mylist = ValueList(15, 0, 2)
     print(mylist.getValues())
-    assert mylist.getMaxValue() == 2
-    assert mylist.getMinValue() == 0 
-    assert mylist.getSum() < 15
+    
