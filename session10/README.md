@@ -17,12 +17,6 @@ class ValueList:
         minvalue (int, optional): min random value. Defaults to 0.
         maxvalue (int, optional): max random value. Defaults to 1000.
 
-    >>> mylist = ValueList(3)
-    >>> mylist.getMaxValue()
-    5
-    >>> mylist.getMinValue()
-    1
-
     """   
     def __init__(self, count, minvalue=0, maxvalue=1000): 
         self._values = [random.randrange(minvalue, maxvalue+1) for i in range(count)]
