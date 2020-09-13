@@ -82,10 +82,12 @@ html_theme = 'classic'
 ```
 
 
+```rst
 Module demolib
 ==============
 .. automodule:: demolib
    :members:
+```
 
 
 
