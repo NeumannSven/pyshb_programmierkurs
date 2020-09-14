@@ -1,5 +1,5 @@
 '''
-Created on 01.09.2020
+Created on 14.09.2020
 
 @author: neumann
 '''
@@ -14,7 +14,8 @@ class ValueList:
         minvalue (int, optional): min random value. Defaults to 0.
         maxvalue (int, optional): max random value. Defaults to 1000.
 
-    """   
+    """
+    
     def __init__(self, count, minvalue=0, maxvalue=1000): 
         self._values = [random.randrange(minvalue, maxvalue+1) for i in range(count)]
 
@@ -53,8 +54,3 @@ class ValueList:
             result += value
         return result
 
-
-if __name__ == "__main__":
-    mylist = ValueList(15, 0, 2)
-    print(mylist.getValues())
-    
