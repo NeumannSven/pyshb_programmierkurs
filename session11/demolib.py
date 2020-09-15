@@ -66,8 +66,7 @@ class ValueList:
 
         Returns:
             int: sum over all values
-        """
-        #TODO: get das nicht ein bischen besser?        
+        """    
         result = 0
         for value in self._values:
             result += value
