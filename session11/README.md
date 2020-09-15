@@ -44,7 +44,7 @@ Erzeugen von einer "virtual environment" mit dem Namen "session11"
 
 ```console
 C:\venv>python -m venv session11
-C:\venv>session11/Scripts/activate
+C:\venv>session11\Scripts\activate
 (session11) C:\venv> 
 ```
 
