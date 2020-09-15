@@ -1,5 +1,8 @@
 # Dokumentation
 
+wie sieht das bei Euch mit der Dokumentation von Software Projekten aus? Wenn Du z. B. ein Python Module einer weiteren Person oder sogar auf einer Plattform wie Github mehreren Anwendern zur Verfügung stellst, dokumentierst Du das Interface oder wie das Modul anzuwenden ist?
+
+In Python gibt es mehrere Module, die Dir die unschönen Fleißarbeit abnehmen. Wir schauen uns den Paket „Sphinx“ an und werden eine Dokumentation für ein Software-Modul generieren.
 
 ```console
 
