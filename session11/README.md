@@ -104,7 +104,9 @@ where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
 
 ```
 
+Es wurde dann mehrere Dateien erzeugt. Wichtig sind für uns die Dateien "conf.py" und "index.rst" 
 
+In der Datei "conf.py" kommentieren wir die Zeilen 13-15 aus. 
 
 ```python
 
@@ -112,19 +114,26 @@ where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
+```
 
+Ab der Zeile 34 fügen wir folgendes hinzu. 
 
+```python
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
 ]
+```
 
+In der Zeile 53 kann das HTML-Theme festgelegt werden.
 
+```python
 html_theme = 'classic'
 
 ```
 
+In der Datei "index.rst" wird (ab der Zeile 13) definiert, welche Module dokumentiert werden sollen. 
 
 ```rst
 Module demolib
@@ -133,20 +142,16 @@ Module demolib
    :members:
 ```
 
-
-
+Mit dem unten stehenden Befehl, wird die Dokumentation erzeugt.
+Diese befindet sich dann im Verzeichnis "_build\html".
 
 ```console
-
 (python) >make html
-
 ```
 
-
-
+Hier das Python Beispiel für das wir eine Dokumentation erzeugen wollen.
 
 ```python
-
 import random
 
 class ValueList:
