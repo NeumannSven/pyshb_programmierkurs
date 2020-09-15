@@ -163,6 +163,12 @@ class ValueList:
         minvalue (int, optional): min random value. Defaults to 0.
         maxvalue (int, optional): max random value. Defaults to 1000.
 
+    >>> mylist = ValueList(15, 0, 2)
+    >>> mylist.getMaxValue()
+    2
+    >>> mylist.getMinValue()
+    0
+
     """   
     def __init__(self, count, minvalue=0, maxvalue=1000): 
         self._values = [random.randrange(minvalue, maxvalue+1) for i in range(count)]
@@ -172,6 +178,8 @@ class ValueList:
 
         Returns:
             list: list of values
+        
+            
         """        
         return self._values.copy()
 
@@ -180,6 +188,11 @@ class ValueList:
 
         Returns:
             int: the biggest value in the list
+            
+        >>> mylist = ValueList(15, 0, 2)
+        >>> mylist.getMaxValue()
+        2
+            
         """        
         return max(self._values)
 
@@ -188,6 +201,11 @@ class ValueList:
 
         Returns:
             int: the smallest value in the list
+
+        >>> mylist = ValueList(15, 0, 2)
+        >>> mylist.getMinValue()
+        0
+
         """        
         return min(self._values)
 
@@ -196,14 +214,10 @@ class ValueList:
 
         Returns:
             int: sum over all values
-        """        
+        """
+        #TODO: get das nicht ein bischen besser?        
         result = 0
         for value in self._values:
             result += value
-        return result
-        
-if __name__ == "__main__":
-    mylist = ValueList(15, 0, 2)
-    print(mylist.getValues())
-
+        return result    
 ```
