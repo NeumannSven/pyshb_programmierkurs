@@ -4,28 +4,67 @@ wie sieht das bei Euch mit der Dokumentation von Software Projekten aus? Wenn Du
 
 In Python gibt es mehrere Module, die Dir die unschönen Fleißarbeit abnehmen. Wir schauen uns den Paket „Sphinx“ an und werden eine Dokumentation für ein Software-Modul generieren.
 
-```console
 
-C:\projects\git\pyshb_programmierkurs\session11>
+## Vorbereitung
 
->python -m venv python
->python/Scripts/activate
-(python) > 
+Erstelle ein neues Verzeichnis Deiner Wahl z. B. "project" und wechsel in das Verzeichnis.
 
 ```
-
-
-```console
-
-(python) >pip install -U sphinx
-
+c:\User\Benutzer>cd \
+C:\>mkdir project
+C:\>cd project
 ```
 
+Dann clone das Repositorie mit "git clone" 
 
 ```console
+C:\project>git clone https://github.com/NeumannSven/pyshb_programmierkurs.git
+Cloning into 'pyshb_programmierkurs'...
+remote: Enumerating objects: 232, done.
+remote: Counting objects: 100% (232/232), done.
+remote: Compressing objects: 100% (193/193), done.
+remote: Total 655 (delta 112), reused 99 (delta 32), pack-reused 423
+Receiving objects: 100% (655/655), 2.24 MiB | 3.84 MiB/s, done.
+Resolving deltas: 100% (336/336), done.
 
+C:\project>
+```
 
-(python) >sphinx-quickstart
+Wenn Du nicht mit "virtual environments" arbeiten möchtest, kannst Du diesen Schritt überspringen.
+Wechsel in das Verzichnis wo alle Deine "virtual environments" aufbewahren möchtest, hier z. B. "venv".
+
+```console
+C:\project>cd \
+C:\>mkdir venv
+C:\>cd venv
+C:\venv>
+```
+
+Erzeugen von einer "virtual environment" mit dem Namen "session11"
+
+```console
+C:\venv>python -m venv session11
+C:\venv>session11/Scripts/activate
+(session11) C:\venv> 
+```
+
+## Installation
+
+Installieren des "sphinx" Paket
+
+```console
+(session11) C:\venv>pip install -U sphinx
+```
+
+## Erzeugen von einer Dokumentation
+
+Wechseln in das "seesion11" Verzeichnis des Repositories
+
+```console
+(session11) C:\venv>cd \project\pyshb_programmierkurs\session11
+(session11) C:\project\pyshb_programmierkurs\session11>
+
+(session11) C:\project\pyshb_programmierkurs\session11>sphinx-quickstart
 Welcome to the Sphinx 3.2.1 quickstart utility.
 
 Please enter values for the following settings (just press Enter to
@@ -64,6 +103,8 @@ source files. Use the Makefile to build the docs, like so:
 where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
 
 ```
+
+
 
 ```python
 
