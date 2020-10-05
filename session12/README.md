@@ -1,14 +1,9 @@
 
 # Distribution von Python Projekten
-Wie kann mein Kumpel meine neue Python App testen?
+Wenn du ein Programm in Python erstellt hast, das sehr nützlich auch für andere Personen sein kann, möchtest du vielleicht an dritte weitergeben. Diese können vielleicht nicht so richtig was mit Python Quellcode was anfangen oder haben vielleicht auch noch nicht einmal eine Python Interpreter auf ihren Rechner installiert. Wie können wir nun unsere Applikation verteilen, damit diese auch von nicht Programmieren genutzt werden können. Python stellt ein paar Tools dafür bereit, die wir uns etwas näher anschauen.  
 
 ## Welche Tools gibt es?
-Das Paket _distutils_ ist in der Standar Bibliothek enthalten und kann über ein Setupscript verschiedene Installationsformate erzeugen.
-Es ist möglich Source und Binärie Distributionen zu erzeugen. Eine Source Distribution kann plattform übergreifent verwendet werden.
-Eine Binärie Distribution kan nur für das System, auf dem gerade das Setupscript läuft, erzeugt werden. Eine weitere möglichkeit ist
-das Packet _setuptools_ diese bittet noch mehr Möglichkeiten, ist aber nicht in der Standard Bibliothek enthalten. Die oben genannten Pakete
-brachen jeweils eine vorhanden Python Installation. Mit dem Paket _pyinstaller_ ist man in der Lage sogenannte ausführbare Programme auszuliefern,
-die kein installiertes Python benötigen.
+Das Paket _distutils_ ist in der Standardbibliothek enthalten und kann über ein Setupscript verschiedene Installationsformate erzeugen. Es ist möglich Source und Binäre Distributionen zu erzeugen. Eine Source Distribution kann plattform übergreifent verwendet werden. Eine Binäre Distribution kann nur für das System, auf dem gerade das Setupscript läuft, erzeugt werden. Ein weiteres Packet mit den Namen_setuptools_ bietet noch mehr Möglichkeiten, ist aber nicht in der Standardbibliothek enthalten. Die oben genannten Pakete brachen jeweils eine vorhandene Python Installation. Mit dem Paket _pyinstaller_ ist man in der Lage, ausführbare Programme zu erzeugen, die keine installierte Python-Umgebung voraussetzen.
 
 
 ## distutils
@@ -79,7 +74,7 @@ List of available distribution formats:
 Für Windows können zwei verschiedene Installationsformate erstellt werden. Es gibt eine normale ausfürbare Installationsdatei mit der Endung "exe" oder eine Installationsdatei mit der Endung "msi".
 
 ##### EXE
-Die 
+Die Ausführbare Installationsdatei wird folgendermaßen erstellt.
 
 ```console
 python setup.py bdist --formats=wininst
@@ -88,11 +83,12 @@ python setup.py bdist --formats=wininst
 ![Ausführbare Setup Datei](https://github.com/NeumannSven/pyshb_programmierkurs/blob/master/session12/exe.png "Ausführbare Setup Datei")
 
 ##### MSI
+Eine MSI Datei kann durch Angeabe des Formats auch erstellt werden.
 
 ```console
 python setup.py bdist --formats=msi
 ```
-![Windows Setup Datei](https://github.com/NeumannSven/pyshb_programmierkurs/blob/master/session12/exe.png "Windows Setup Datei")
+![Windows Setup Datei](https://github.com/NeumannSven/pyshb_programmierkurs/blob/master/session12/msi.png "Windows Setup Datei")
 
 #### Linux package
 Das Erstellen eines RPM Paketes ist auch möglich, aber Dazu muss man sich auch auf einen Linux System befinden.
