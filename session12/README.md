@@ -84,11 +84,15 @@ Die
 ```console
 python setup.py bdist --formats=wininst
 ```
+
+![Ausführbare Setup Datei](https://github.com/NeumannSven/pyshb_programmierkurs/blob/master/session12/exe.png "Ausführbare Setup Datei")
+
 ##### MSI
 
 ```console
 python setup.py bdist --formats=msi
 ```
+![Windows Setup Datei](https://github.com/NeumannSven/pyshb_programmierkurs/blob/master/session12/exe.png "Windows Setup Datei")
 
 #### Linux package
 Das Erstellen eines RPM Paketes ist auch möglich, aber Dazu muss man sich auch auf einen Linux System befinden.
