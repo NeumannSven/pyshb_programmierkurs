@@ -101,8 +101,30 @@ python setup.py bdist --formats=rpm
 
 
 ## pyinstaller
+In den vorherigen Kapiteln haben wir Distributionen für verschiedene Systeme erzeugt, aber diese benötigen immer eine installierte Python-Umgebenung.
+Mit _pyinstaller_ ist es möglich Standalone-Anwendungen zu erzeugen. Das Packet ist nicht in der Standarbibliothek enthalten und muss mit _pip_ installiert werden.
+
+```console
+pip install pyinstaller
+```
 
 ### Ausführbare Applikation
+Eine Ausführbare Datei wird mit folgender Komandozeile erzeugt.
+
+```console
+pyinstaller MyApp.py
+```
+Es wird im Ordner _dist_ ein neuer Programm Ordner _MyApp_ mit allen benötigten Bibliotheken und Dateien erstellt. Dieser ist mit 11.5 MB nicht gerade klein, wenn man bedenkt das unser Beispielprogramm nur eine Konsolenausgabe macht. Das kann um die hälfte reduziert werden in dem wir alles in eine Datei packen und mit hilfe von _upx_ komprimieren. Das wird folgendermaßen gemacht.
+
+```console
+pyinstaller -F MyApp.py
+```
+Jetzt beträgt die Größe der ausführbaren Datei nur noch 5,5 MB
+
+
+
+
+
 
 
 
