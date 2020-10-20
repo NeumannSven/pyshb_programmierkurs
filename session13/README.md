@@ -21,19 +21,14 @@ import wx.xrc
 
 class MainApp(wx.App):
     def OnInit(self):
-        self.res = wx.xrc.XmlResource("ibox.xrc")
-        self.frame = self.res.LoadFrame(None, "MyFrame1")
+        self.res = wx.xrc.XmlResource("session13.xrc")
+        self.frame = self.res.LoadFrame(None, "MyFrame")
         self.frame.Show()
         return True
-
-        def OnOk(self, event):
-                print(event)
-
 
 if __name__ == "__main__":
     app = MainApp()
     app.MainLoop()
-
 ```
 
 
@@ -41,12 +36,11 @@ if __name__ == "__main__":
 
 ```python
 import wx
-import wx.xrc
-import ibox
+import session13
 
 class MainApp(wx.App):
     def OnInit(self):
-        self.mainframe = ibox.MyFrame1(None)
+        self.mainframe = session13.MyFrame(None)
         self.mainframe.Show(True)
         return True
 
@@ -55,4 +49,30 @@ if __name__ == "__main__":
         app.MainLoop()
 ```
 
+## Events
 
+```python
+import wx
+import session13
+
+
+class Frame(session13.MainFrame):
+    def doButtonSet( self, event ):
+        self.m_textCtrlParam1.SetValue("Hallo Welt!")
+
+    
+    def doFileExit( self, event ):
+        self.Destroy()
+
+
+
+class MainApp(wx.App):
+    def OnInit(self):
+        self.mainframe = Frame(None)
+        self.mainframe.Show(True)
+        return True
+
+if __name__ == "__main__":
+        app = MainApp()
+        app.MainLoop()
+```
