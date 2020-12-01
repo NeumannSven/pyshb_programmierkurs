@@ -28,6 +28,9 @@ while True:
         x -= speed
 
     screen.fill((0,0,0))
+    pygame.draw.lines(screen,(255,255,0), True, ((0,0), (0,90), (90,0)))
+
     pygame.draw.rect(screen, (255,0,0), (x,y,40,80))
+   
     pygame.display.update()
     clock.tick(60)
