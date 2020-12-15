@@ -33,6 +33,6 @@ while True:
     elif button[pygame.K_LEFT]:
         x -= speed
 
-    background()    
+    background()   
     pygame.draw.rect(screen, (255,0,0), (x,y,40,80))
     pygame.display.update()
