@@ -5,7 +5,7 @@
 
 ``` shell
 sudo pip3 install opencv-python
-
+```
 
 ## Gesicheter aus Kamera verpixeln
 
@@ -26,7 +26,7 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-
+```
 
 ### Auf Kamerabild zeichnen 
 
