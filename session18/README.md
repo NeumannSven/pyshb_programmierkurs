@@ -116,13 +116,21 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-## Video erstellen
+
+## Gesichter im Video verpixeln
+
+
+### Video erstellen
 
 ``` python
 
 ```
 
 
+### Gesicht im Videobild suchen und verpixeln 
+
+``` python
+
+```
 
 
-## Gesichter im Video verpixeln
