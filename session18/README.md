@@ -116,6 +116,12 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
+## Video erstellen
+
+``` python
+
+```
+
 
 
 
